@@ -47,3 +47,5 @@ Here are the top use cases of the Library Management System:
 * Reserve book: To reserve a book which is not currently available.
 * Renew a book: To reborrow an already checked-out book.
 * Return a book: To return a book to the library which was issued to a member.
+
+<image src="https://github.com/ravi26067/LLD/blob/main/LibraryManagement/source/LibraryUml.png" />
