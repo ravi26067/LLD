@@ -25,7 +25,7 @@ class Cell{
 	CellPosition position;
 }
 
-clas CellPosition{
+class CellPosition{
 	Char col;
 	int row;
 }
