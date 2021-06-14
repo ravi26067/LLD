@@ -87,7 +87,7 @@ class Bishop extends Piece{
 
 }
 
-class Queen Piece{
+class Queen extends Piece{
 	Color color;
 	public abstract boolean move(CellPosition from , CellPosition toPosition);
 	public abstract List<CellPosition> possibleMoves(CellPosition start);
@@ -95,7 +95,7 @@ class Queen Piece{
 
 }
 
-class King Piece{
+class King extends Piece{
 	Color color;
 	public abstract boolean move(CellPosition from , CellPosition toPosition);
 	public abstract List<CellPosition> possibleMoves(CellPosition start);
@@ -103,7 +103,7 @@ class King Piece{
 
 }
 
-class Rook Piece{
+class Rook extends Piece{
 	Color color;
 	public abstract boolean move(CellPosition from , CellPosition toPosition);
 	public abstract List<CellPosition> possibleMoves(CellPosition start);
@@ -111,7 +111,7 @@ class Rook Piece{
 
 }
 
-class Knight Piece{
+class Knight extends Piece{
 	Color color;
 	public abstract boolean move(CellPosition from , CellPosition toPosition);
 	public abstract List<CellPosition> possibleMoves(CellPosition start);
@@ -119,7 +119,7 @@ class Knight Piece{
 
 }
 
-class Pawn Piece{
+class Pawn extends Piece{
 	Color color;
 	public abstract boolean move(CellPosition from , CellPosition toPosition);
 	public abstract List<CellPosition> possibleMoves(CellPosition start);
@@ -127,20 +127,5 @@ class Pawn Piece{
 
 }
 
-abstract class Piece{
-	Color color;
-	public abstract boolean move(CellPosition from , CellPosition toPosition);
-	public abstract List<CellPosition> possibleMoves(CellPosition start);
-	public abstract boolean validateMove(CellPosition start,CellPosition end);
-
-}
-
-abstract class Piece{
-	Color color;
-	public abstract boolean move(CellPosition from , CellPosition toPosition);
-	public abstract List<CellPosition> possibleMoves(CellPosition start);
-	public abstract boolean validateMove(CellPosition start,CellPosition end);
-
-}
 
 
